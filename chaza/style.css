@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Lato {
+    font-family: 'Merriweather', serif;font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+h2{
+    margin: 10px;
+}
+
+body{
+    background: radial-gradient(circle, rgba(148,187,233,1) 5%, rgba(238,174,202,1) 36%, rgba(244,244,244,1) 97%);
+}
+
+.portada {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: white;
+    position: relative;
+    padding: 7%;
+    font-size: 18px;
+
+}
+
+.imagen{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.barra_busqueda{
+    padding: 15px;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.busqueda {
+    margin: auto;
+    height: 60px;
+    width: 86%;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.busqueda input[type="search"]{
+    height: 100%;
+    width: calc(100% - 120px);
+    border:0;
+    font-size: 13pt;
+    padding: 15px;   
+    background-color: gainsboro;
+}
+
+.busqueda input[type="submit"]{
+    height: 60px;
+    width: 60px;
+    background-color: transparent;
+    border: 0;
+    font-size: 15pt;
+}
+
+.categorias{
+    height: 80px;
+    display: flex;
+    align-items: center;  
+}
+.categorias ul{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    gap: 10px;
+}
+.flexcol{
+display:flex ;
+flex-direction: column;
+gap: 20px;}
+
+
+.deportess{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    gap: 20px;
+}
+.listadeportes{
+    width: 47.8%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.deportes .imgdeportes{
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.deportes img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.deportes .datosdeportes{
+    position: relative;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+     width: 100%;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+}
+
+.deportes .textos{
+    line-height: 18pt;
+}
+
+.color{
+    color: rgb(172, 104, 235);
+}
+
+.colorH{
+    color: rgb(247, 151, 87);
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+
+}
+
+footer ul li{
+    width: 100%;
+    text-align: center;
+}
+
+footer ul li:hover{
+    border-top: solid 4px rgb(17, 17, 17);
+}
+
+footer a{
+    text-decoration:none;
+    color:rgb(111, 111, 111);
+}
+
+footer a:hover{
+    color: rgb(134, 113, 113);
+}
+
+footer .active {
+    color: black;
+    font-weight: 700;
+}
+

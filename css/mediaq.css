@@ -1,0 +1,6 @@
+ /* importazr */
+@media screen and (max-width:992px) {
+    .listaresto{
+        flex-direction: column;
+    }
+}
